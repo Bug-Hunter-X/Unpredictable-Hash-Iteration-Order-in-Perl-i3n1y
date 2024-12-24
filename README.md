@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle issue in Perl: the unpredictable order of hash iteration. The script `bug.pl` iterates through a hash and prints the key-value pairs.  The order of output is not guaranteed and may differ between runs. The solution `bugSolution.pl` shows how to achieve a predictable order if needed (e.g., by sorting keys).
